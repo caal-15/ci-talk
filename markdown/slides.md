@@ -12,6 +12,12 @@ Síguela en [caal-15.github.io/ci-talk](http://caal-15.github.io/image-stitching
 ---
 class: center, middle
 
+# _CI_
+## Continuous Integration/Integración Continua
+
+---
+class: center, middle
+
 # Conceptos Básicos
 
 ---
@@ -167,12 +173,30 @@ class: left, middle
 ---
 class: center, middle
 
+# Comentarios de cierre
+
+---
+class: center, middle
+
 # Consideraciones Adicionales.
 
 .big[
   Para sacar el mayor provecho del _pipeline_ se debe usar en conjunto con
   otras prácticas, incluyendo buen desarrollo de _tests_, y el uso de otras
   herramientas que proporciona __GitLab__ como _merge requests_ del código.
+]
+
+---
+class: center, middle
+
+# Pasos a seguir
+
+.big[
+  El siguiente paso al __CI__ comparte un nombre muy similar, y se llama
+  _Continuous Deployment_, tienes tu _pipeline_ integrando continuamente
+  código sin errores, ¿Qué tal si ahora te despreocupas del deploy a los
+  servidores?, ¿la buena noticia?, puedes usar el pipeline de __GitLab__ para
+  hacerlo ;).
 ]
 
 ---
